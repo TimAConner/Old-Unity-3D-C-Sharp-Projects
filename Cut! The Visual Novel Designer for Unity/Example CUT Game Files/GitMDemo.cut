@@ -1,0 +1,41 @@
+// Menus
+
+StartFold
+EndFold
+
+// Backgrounds
+
+StartFold
+#Background Splash : filename="splash"f
+#Background Mainmenu : filename="mainmenu"f
+#Background Sunquest : filename="sunquest"f
+EndFold
+
+// Character Images
+
+StartFold
+EndFold
+
+// Character 
+
+StartFold
+#Character N : name="Narrator"n textcolor=(White)t
+EndFold
+
+// Music
+
+StartFold
+#Audio Mainmenu : filename="Disembodiment"f
+EndFold
+
+// Animation
+StartFold
+#Animation FadeIn : time=(7.0)t fade=(1.0)f
+EndFold
+
+#Scene Start
+#SetBackground Sunquest NEXT
+#Speech N : "Hello."
+#Wait 30
+
+#FileEnd
