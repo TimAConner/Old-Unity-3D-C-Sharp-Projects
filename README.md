@@ -32,7 +32,7 @@ It was originally built without regex.  About half way through, I decided to use
             1. ButtonClassDefault.cs  
                 `Contains the default values for the button class.  I don't know why I chose to put the defaults in an alternate class to ButtonClass.cs  `
             1. ChannelClass.cs  
-                `Contains information about the current chanel that audio is being played over.  Contains the id of the chanel, the max vovlumen, the time played for, and the information on when to fade in / fade out.`
+                `Contains information about the current channel that audio is being played over.  Contains the id of the channel, the max vovlumen, the time played for, and the information on when to fade in / fade out.`
             1. Character.cs  
                 `Contains character name, the variable associated with the character, and their text color.`
             1. CurrentImage.cs  
