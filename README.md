@@ -25,6 +25,7 @@ It was originally built without regex.  About half way through, I decided to use
         1. #### Classes _Folder_
             1. AnimationoClass.cs  
                 `Contains name of animation and the string containing the actual animation.`
+                
             1. AudioClass.cs  
                 `Contains the name of the audio and the file path of the sound file.`
             1. ButtonClass.cs  
@@ -59,6 +60,7 @@ It was originally built without regex.  About half way through, I decided to use
     1. #### Example CUT Game Files _Folder_
         1. Game00.cut  
             `An example game.`
+
         1. Game01.cut  
             `An example game.`
         1. GitMDemo.cut  
@@ -68,6 +70,7 @@ It was originally built without regex.  About half way through, I decided to use
     1. #### Example Save Files _Folder_
         1. QuickSave.cut  
             `An example quick save file.`
+
         1. Save.cut  
             `An example save file.`
         1. Save3.cut  
@@ -104,6 +107,7 @@ Territories was a multiplayer turn based 3D game where players explore the map, 
     1. #### Classes _Folder_
         1. AlliesClass.cs  
         `Class containing the name of an ally.`
+
         1. GridPoint.cs  
         `Class containing and x and y grid coordinate.`
         1. HexGridClass.cs  
@@ -129,6 +133,7 @@ Territories was a multiplayer turn based 3D game where players explore the map, 
     1. #### Saving Data Scripts _Folder_ 
         1. FirstTestScriptPHPPost.cs  s          
             `Testing of posting data created by VersionDeserializationBinder to a website.`
+
         1. SaveData.cs     
             `Turns C#/Unity objects into text to be stored in a file.`
         1. server.cs    
@@ -137,6 +142,7 @@ Territories was a multiplayer turn based 3D game where players explore the map, 
             `Turns C#/Unity objects into text to be stored in a file. `
     1. BoatWave.cs    
         `Makes a 3d boat object rock back and forth.  It would be attached to the object.` 
+        
     1. CameraMovement.cs     
         `Controls the camera's movement.  It would be attached to the camera object.`
     1. CamerScrollMovment.js  
