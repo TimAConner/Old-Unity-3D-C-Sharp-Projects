@@ -2,7 +2,7 @@
 This repository is made up of Unity 3D C# scripts written, before I had formal coding training, for personal and collaborative projects from 2013 - 2016.  They were not written using GitHub.  I have not cleaned them up to show an example of the code written before attending [Nashville Software School](https://github.com/nashville-software-school).  
 
 # To Use
-All files have to be run in the [Unity 3D Game Engine](https://unity3d.com/). They were built in Unity 3.x
+All files have to be run in the [Unity 3D Game Engine](https://unity3d.com/) version 3.x.
 
 # Projects
 1. Cut! The Visual Novel Designer for Unity (2013 - 2014)
@@ -16,7 +16,7 @@ A runtime-compiled language to develop visual novels in Unity.  I wanted to see 
 
 It was originally built without regex.  About half way through, I decided to use regex to parse CUT code.
 
-### File Description
+### File Descriptions
 
 1. Cut! The Visual Novel Designer for Unity _Folder_
     1. CUTCodingReference - Version 1.1405.docx  
@@ -87,7 +87,7 @@ These scripts were made to replicate the World of WarCraft player camera, includ
 
 The animations and models used in this project are not provided.  They were made by a third party.
 
-### File Description
+### File Descriptions
 1. World of WarCraft Camera & Movement Clone _Folder_
     1. CameraMovement20161020.cs    
         `Controls the camera's movement.  It provides functionality to smoothly follow the player as they move, rotate around the player, zoom in in when objects are between the camera and the player, and zoom in with the scroll wheel.
@@ -99,7 +99,7 @@ The animations and models used in this project are not provided.  They were made
 ## Territories - Settlers of Catan Style Game (2015 - 16)
 Territories was a multiplayer turn based 3D game where players explore the map, mine resources, advance their technology, and encounter other players that become trusted allies or despicable foes.  The "server" is not a server, but a script that reads a file on the players computer. 
 
-### File Description
+### File Descriptions
 1. Territories - Settlers of Catan Style Game _Folder_  
     1. Classes _Folder_ 
         1. AlliesClass.cs     
