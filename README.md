@@ -1,4 +1,4 @@
-# Unity-C-Old-Projects
+# Unity 3D Old C# Projects
 This repository is made up of Unity 3D C# scripts written, before I had formal coding training, for personal and collaborative projects from 2013 - 2016.  They were not written using GitHub.  I have not cleaned them up to show an example of the code written before attending [Nashville Software School](https://github.com/nashville-software-school).  
 
 # To Use
