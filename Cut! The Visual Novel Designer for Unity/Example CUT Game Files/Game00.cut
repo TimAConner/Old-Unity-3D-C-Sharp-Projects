@@ -1,0 +1,91 @@
+StartFold Declarations
+
+StartFold Characters
+#Character Joe : name="Joe"n textcolor=(White)t
+#Character N : name=""n textcolor=(Magenta)t
+EndFold
+
+StartFold Images
+#Background Car : filename="CarInterior"f
+#Background Graveyard : filename="Graveyard"f
+//Backgrounds to add on each other
+StartFold Backgrounds
+#Background B1 : filename="Images/g"f
+#Background B2 : filename="Images/f"f
+#Background B3 : filename="Images/e"f
+#Background B4 : filename="Images/d"f
+#Background B5 : filename="Images/c"f
+#Background B6 : filename="Images/b"f
+#Background B7 : filename="Images/a"f
+EndFold
+
+#Image Joe-Face : filename="Stephen"f 
+#Image Carl-Face : filename="Stephen"f 
+
+EndFold
+
+StartFold Audio
+#Audio Paradise : filename="sounds/Paradise"f
+#Audio LilyAllen : filename="sounds/LilyAllen"f
+EndFold
+
+StartFold Animations
+#Animation MoveRight : time=(5.0)t ypos=(1)y
+#Animation MoveLeft : time=(5.0)t xpos=(100)x ypos=(50)y
+#Animation MoveFade : time=(5.0)t xpos=(100)x ypos=(100)y
+#Animation Fade : time=(5.0)t fade=(0.0)f
+EndFold
+
+EndFold
+	
+#Scene Start
+#TextBoxOn NEXT
+
+//This is a comment, anything can be written before '#' \
+#SetBackground B4 NEXT
+#FadeBackground B4 : time=(1.0)t
+#Speech N : "Whats up?"
+#FadeBackground B1 : time=(3.0)t  MouseBreak
+#Speech Joe : "Dang, thats a car"
+#FadeBackground B5 : time=(5.0)t NextFade
+#FadeBackground B7 : time=(1.2)t
+
+
+
+#Choice : ("Scene 4"=Scene4,"Scene 2"=Scene2)
+
+//#ShowImage Joe-Face : pos=(0.5%x 0.5%y 100w 100h)p fade=(0.5)f animation="MoveFade"a NEXT
+//#ShowImage Carl-Face : pos=(0.5%x 0.25%y 100w 100h)p animation="MoveLeft"a
+//#PlayAudio Paradise :  volume=(1.0)v channel=(1)c loop=(true)l fadein=(5.0)f NEXT
+
+#PlayAudio LilyAllen : volume=(0.1)v channel=(1)c
+
+
+
+#Speech N : "Welcome to CUT Visual Novel Language!" NEXT
+#Animate Carl-Face : animation="MoveRight,Fade"a
+
+#RemoveImage Carl-Face  NEXT
+
+
+#Animate 
+
+#Scene Scene2
+#TextBoxOn NEXT
+//#PauseAudio Channel1 NEXT
+#Speech N : "I am your Narrator, welcome me!"
+#Wait 1.0
+#Speech Joe : "Hello, how are you?" NEXT
+#Jump Scene4
+
+#Scene Scene3
+#TextBoxOn NEXT
+//#ResumeAudio Channel1 NEXT
+#FadeBackground :  background="Car"b time=(5.0)t 
+#Speech N : "That is a background image!"
+#Speech Joe : "Dang, that is awesome!"
+#Jump Scene2
+#Scene Scene4
+#Speech N : "HeyEHEHEH"
+
+#FileEnd

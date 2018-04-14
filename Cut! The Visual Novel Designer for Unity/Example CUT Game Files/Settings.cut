@@ -1,0 +1,16 @@
+GameName="CUT Visual Novel Example Game" //Name of the application
+WindowName="Example Game" //What the window will be named
+FullScreen=0 //If it can go full screen
+TextFont=""//Font of the characters text
+TextSize=(1.0)//Size of the characters text
+TextSpeed=(1.0) //Speed at which the text will move, 0.0 is automatic.
+Language="English" //Type of language characters that will display in the game
+WindowHeight=(500) //Height of the game window
+WindowWidth=(500) //Width of the game window
+TextBoxHeight=(500) //Height of the text box
+TextBoxWidth=(500) //Width of the text box
+TextBoxOpacity=(0.0) //Opacity of the text box
+FileEndText="File read to end." //When it find "FileEnd" in the code what text will be displayed.
+CommandLine=1 //If the user can use the command line
+SkipAnimations=1 // if true the user can skip animations
+GameVersion=(1.00)//The version of the game, can be read by the player.

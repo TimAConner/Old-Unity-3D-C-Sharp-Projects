@@ -1,0 +1,32 @@
+#Image Stephen : filename="Stephen"f
+//
+#Image S : filename="Graveyard"f
+#Background Car : filename="CarInterior"f
+#Background Graveyard : filename="Graveyard"f
+#Character S : name="Stephen"n textcolor=(White)t
+#Animation FadeIn : time=(7.0)t fade=(1.0)f
+#Audio Paradise : filename="sounds/Paradise"f
+
+#Scene Start
+#Speech S : "Hello, my name is Stephen!"
+//#Wait 2.5
+
+#ShowImage Stephen : pos=(50x 100y 50w 50h)p fade=(0.0)f animation="FadeIn"a NEXT
+
+
+#Speech S : "Where do you want to go?"
+
+#RemoveImage Stephen NEXT
+#Choice : ("Car"=Car, "Graveyard"=Graveyard)
+
+#Scene Car
+#SetBackground Car NEXT
+#Jump After
+
+#Scene Graveyard
+#SetBackground Graveyard
+#PlayAudio Paradise : volume=(0.0)v channel=(2)c loop=(true)l fadein=(5.0)f
+
+#Scene After
+
+#FileEnd
