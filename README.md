@@ -22,60 +22,60 @@ It was originally built without regex.  About half way through, I decided to use
     1. #### CUTCodingReference - Version 1.1405.docx  
         `A quick coding guide written in word for the CUT language.`
     1. #### C# Scripts _Folder_
-        1. #### Classes _Folder_
-            1. AnimationoClass.cs  
+        * #### Classes _Folder_
+            * AnimationClass.cs  
                 `Contains name of animation and the string containing the actual animation.`
                 
-            1. AudioClass.cs  
+            * AudioClass.cs  
                 `Contains the name of the audio and the file path of the sound file.`
-            1. ButtonClass.cs  
+            * ButtonClass.cs  
                 `Contains the name of the button, the command to be executed when clicked, the x and y coordinates, and the texture.`
-            1. ButtonClassDefault.cs  
+            * ButtonClassDefault.cs  
                 `Contains the default values for the button class.  I don't know why I chose to put the defaults in an alternate class to ButtonClass.cs  `
-            1. ChannelClass.cs  
+            * ChannelClass.cs  
                 `Contains information about the current channel that audio is being played over.  Contains the id of the channel, the max vovlumen, the time played for, and the information on when to fade in / fade out.`
-            1. Character.cs  
+            * Character.cs  
                 `Contains character name, the variable associated with the character, and their text color.`
-            1. CurrentImage.cs  
+            * CurrentImage.cs  
                 `Contains information of the image currently being displayed on the screen.  Values include is name, x position, y position, height, width, alpha, and the animation currently on it.`
-            1. MenuClass.cs  
+            * MenuClass.cs  
                 `Contains name of menu and the lines that make up the menu.`  
-            1. MenuControls.cs  
+            * MenuControls.cs  
                 `Contains information on the functionality of the menu.  Including the type of menu object, x and y location, width and height, text displayed, the command, whether it fades in, the current state of its fade in, and the texture and hover texture.`
-            1. MovieClass.cs  
+            * MovieClass.cs  
                 `Contains information on a movie.  The name of the variable, the file name, and the actual data off the movie.`
-            1. SaveData.cs  
+            * SaveData.cs  
                 `Contains class that contains slots for all information that should be saved when the game is saved.`
-            1. SceneClass.cs  
+            * SceneClass.cs  
                 `Contains the name of a scene (a block of cut code) and at what line number that occurs if it should be jumped to.`
-            1. TextureVariable.cs  
+            * TextureVariable.cs  
                 `Contains name and texture data of a texture to be loaded.`
-            1. VariablesClass.cs  
+            * VariablesClass.cs  
                 `Contains list of variables that the main game file uses.  The variables are abstracted away to this file to make the main file cleaner.`
-            1. VersionDeserializationBinder.cs  
+            * VersionDeserializationBinder.cs  
                 `Turns C#/Unity objects into text to be stored in a file.` 
 
-        1. CutVersion11400.cs  
+        * CutVersion11400.cs  
             `Main controller of CUT.  Contains primary logic and parses the code.`
     1. #### Example CUT Game Files _Folder_
-        1. Game00.cut  
+        *  Game00.cut  
             `An example game.`
 
-        1. Game01.cut  
+        *  Game01.cut  
             `An example game.`
-        1. GitMDemo.cut  
+        *  GitMDemo.cut  
             `An example game.`
-        1. Settings.cut  
+        *  Settings.cut  
             `An example settings file.`
     1. #### Example Save Files _Folder_
-        1. QuickSave.cut  
+        * QuickSave.cut  
             `An example quick save file.`
 
-        1. Save.cut  
+        * Save.cut  
             `An example save file.`
-        1. Save3.cut  
+        * Save3.cut  
             `An example save file.`
-        1. Save4.cut  
+        * Save4.cut  
             `An example save file.`
 
 <!-- Use to hide file structure to make this look better -->
@@ -105,44 +105,44 @@ Territories was a multiplayer turn based 3D game where players explore the map, 
 ### File Descriptions
 1. Territories - Settlers of Catan Style Game _Folder_  
     1. #### Classes _Folder_
-        1. AlliesClass.cs  
+        * AlliesClass.cs  
         `Class containing the name of an ally.`
 
-        1. GridPoint.cs  
+        * GridPoint.cs  
         `Class containing and x and y grid coordinate.`
-        1. HexGridClass.cs  
+        * HexGridClass.cs  
             `Class containing a hex on the map and it stats.`
-        1. MessageClass.cs     
+        * MessageClass.cs     
             `Class containing message type, text, and sender information.`
-        1. PlayerClass.cs    
+        * PlayerClass.cs    
             `Class containing player resources, allies, upgrades, messages, and other stats.`
-        1. ResourcesClass.cs     
+        * ResourcesClass.cs     
             `Class containing a list of resources and a possible hex to be used in the messege class if resources and/or a hex is being traded between players.`
-        1. SettingsClass.cs    
+        * SettingsClass.cs    
             `Holds two strings, the key and the value.  Used to hold settings that the player may have.` 
-        1. SoldierClasss.cs     
+        * SoldierClasss.cs     
             `Class contianng soldier type and wounds variables.`
-        1. StringIntClass.cs    
+        * StringIntClass.cs    
             `Class enables you to store a string that is associated with an integer.` 
-        1. TwoIntegerList.cs     
+        * TwoIntegerList.cs     
             `Class holding two integers under the same variable name.`
-        1. UnitClass.cs     
+        * UnitClass.cs     
             `Class containing information about a unit moving around the game board, including the owner's information, its resources, the soldiers that make it up, and what waves the soldiers are in.`
-        1. UpgradeClass.cs      
+        * UpgradeClass.cs      
             `Class containing the information that defines the effects of an upgrad and its cost.`
     1. #### Saving Data Scripts _Folder_ 
-        1. FirstTestScriptPHPPost.cs  s          
+        * FirstTestScriptPHPPost.cs  s          
             `Testing of posting data created by VersionDeserializationBinder to a website.`
 
-        1. SaveData.cs     
+        * SaveData.cs     
             `Turns C#/Unity objects into text to be stored in a file.`
-        1. server.cs    
+        * server.cs    
             `Allows a user to create a map and save the map locally.`     
-        1. VersionDeserializationBinder.cs     
+        * VersionDeserializationBinder.cs     
             `Turns C#/Unity objects into text to be stored in a file. `
     1. BoatWave.cs    
         `Makes a 3d boat object rock back and forth.  It would be attached to the object.` 
-        
+
     1. CameraMovement.cs     
         `Controls the camera's movement.  It would be attached to the camera object.`
     1. CamerScrollMovment.js  
