@@ -5,20 +5,93 @@ This repository is made up of Unity 3D C# scripts written before I had any forma
 All files have to be run in the [Unity 3D Game Engine](https://unity3d.com/).
 
 # Projects
+1. Cut! The Visual Novel Designer for Unity (2013 - 2014)
+1. World of WarCraft Camera & Movement Clone (2016)
+1. Territories - Settlers of Catan Style Game (2015 - 16)
+
+
+---
 ## Cut! The Visual Novel Designer for Unity (2013 - 2014)
 A runtime-compiled language to develop visual novels in Unity.  I wanted to see if I could build my own "programming languages", and determined Unity was not an environment in which client could easily design visual novel game levels.  In order to give client the most control with the least amount of programming, I developed a language written in C# within Unity.
 
+1. Cut! The Visual Novel Designer for Unity (Folder)
+    1. CUTCodingReference - Version 1.1405.docx
+        * A quick coding guide written in word for the CUT language.
+    1. C# Scripts (Folder)
+        1. Classes (Folder)
+            1. AnimationoClass.cs
+                * Contains name of animation and the string containing the actual animation.
+            1. AudioClass.cs
+                * Contains the name of the audio and the file path of the sound file.
+            1. ButtonClass.cs
+                * Contains the name of the button, the command to be executed when clicked, the x and y coordinates, and the texture.
+            1. ButtonClassDefault.cs
+                * Contains the default values for the button class.  I don't know why I chose to put the defaults in an alternate class to ButtonClass.cs
+            1. ChannelClass.cs
+                * Contains information about the current chanel that audio is being played over.  Contains the id of the chanel, the max vovlumen, the time played for, and the information on when to fade in / fade out.
+            1. Character.cs
+                * Contains character name, the variable associated with the character, and their text color.
+            1. CurrentImage.cs
+                * Contains information of the image currently being displayed on the screen.  Values include is name, x position, y position, height, width, alpha, and the animation currently on it.
+            1. MenuClass.cs
+                * Contains name of menu and the lines that make up the menu.  
+            1. MenuControls.cs
+                * Contains information on the functionality of the menu.  Including the type of menu object, x and y location, width and height, text displayed, the command, whether or not it fades in, the current state of its fade in, and the texture and hover texture.
+            1. MovieClass.cs
+                * Contains information on a movie.  The name of the variable, the file name, and the actual data off the movie.
+            1. SaveData.cs
+                * Contains class that contains slots for all information that should be saved when the game is saved.
+            1. SceneClass.cs
+                * Contains the name of a scene (a block of cut code) and at what line number that occurs if it should be jumped to.
+            1. TextureVariable.cs
+                * Contains name and texture data of a texture to be loaded.
+            1. VariablesClass.cs
+                * Contains list of variables that the main game file uses.  The variables are abstracted away to this file to make the main file cleaner.
+            1. VersionDeserializationBinder.cs
+                * Turns C#/Unity objects into text to be stored in a file. 
+
+        1. CutVersion11400.cs
+            * Main controller of CUT.  Contains primary logic and parses the code.
+    1. Example CUT Game Files (Folder)
+        1. Game00.cut
+            * An example game.
+        1. Game01.cut
+            * An example game.
+        1. GitMDemo.cut
+            * An example game.
+        1. Settings.cut
+            * An example settings file.
+    1. Example Save Files (Folder)
+        1. QuickSave.cut
+            * An example quick save file.
+        1. Save.cut
+            * An example save file.
+        1. Save3.cut
+            * An example save file.
+        1. Save4.cut
+            * An example save file.
+
+<!-- Use to hide file structure to make this look better -->
+<!-- <details>
+<summary>Test</summary>
+Content
+</details> -->
+
+---
 ## World of WarCraft Camera & Movement Clone (2016)
 These scripts were made to replicate the World of WarCraft player camera, including mouse orbit, arrow key movement, zooming in and out, and collision detection to push the camera closer to the player.
 
 The animations and models used in this project are not provided.  They were made by a third party.
 
 ### File Description
-1. CameraMovement20161020.cs
-    * Controls the camera's movement.  It provides functionality to smoothly follow the player as they move, rotate around the player, zoom in in when objects are between the camera and the player, and zoom in with the scroll wheel..
-1. PlayerMovement20161004.cs
-    * Controls player's movement.  Animations used in the example are not provided.
+1. World of WarCraft Camera & Movement Clone (Folder)
+    1. CameraMovement20161020.cs
+        * `Controls the camera's movement.  It provides functionality to smoothly follow the player as they move, rotate around the player, zoom in in when objects are between the camera and the player, and zoom in with the scroll wheel.
+        This would be attached to the camera.`
+    1. PlayerMovement20161004.cs
+        * `Controls player's movement.  Animations used in the example are not provided.  This would be attached to the player.`
 
+---
 ## Territories - Settlers of Catan Style Game (2015 - 16)
 Territories was a multiplayer turn based 3D game where players explore the map, mine resources, advance their technology, and encounter other players that become trusted allies or despicable foes.  The "server" is not a server, but a script that reads a file on the players computer. 
 
@@ -42,7 +115,7 @@ Territories was a multiplayer turn based 3D game where players explore the map, 
         1. SoldierClasss.cs  
             * Class contianng soldier type and wounds variables.
         1. StringIntClass.cs 
-            * Class enables you to store a string that is associatec with an integer. 
+            * Class enables you to store a string that is associated with an integer. 
         1. TwoIntegerList.cs  
             * Class holding two integers under the same variable name.
         1. UnitClass.cs  
@@ -59,7 +132,7 @@ Territories was a multiplayer turn based 3D game where players explore the map, 
         1. VersionDeserializationBinder.cs  
             * Turns C#/Unity objects into text to be stored in a file. 
     1. BoatWave.cs 
-        * This scrip makes a 3d boat object rock back and forth.  It would be attached to the object. 
+        * Makes a 3d boat object rock back and forth.  It would be attached to the object. 
     1. CameraMovement.cs  
         * Controls the camera's movement.  It would be attached to the camera object.
     1. CamerScrollMovment.js  
