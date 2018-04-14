@@ -7,7 +7,7 @@ All files have to be run in the [Unity 3D Game Engine](https://unity3d.com/) ver
 # Projects
 1. Cut! The Visual Novel Designer for Unity (2013 - 2014)
 1. World of WarCraft Camera & Movement Clone (2016)
-1. Territories - Settlers of Catan Style Game (2015 - 16)
+1. Territories - Settlers of Catan Style Game (2015 - 2016)
 
 
 ---
@@ -96,7 +96,7 @@ The animations and models used in this project are not provided.  They were made
         `Controls player's movement.  Animations used in the example are not provided.  This would be attached to the player.`
 
 ---
-## Territories - Settlers of Catan Style Game (2015 - 16)
+## Territories - Settlers of Catan Style Game (2015 - 2016)
 Territories was a multiplayer turn based 3D game where players explore the map, mine resources, advance their technology, and encounter other players that become trusted allies or despicable foes.  The "server" is not a server, but a script that reads a file on the players computer. 
 
 ### File Descriptions
