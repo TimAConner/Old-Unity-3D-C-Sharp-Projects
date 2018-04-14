@@ -1,5 +1,5 @@
 # Unity-C-Old-Projects
-This repository is made up of Unity 3D C# scripts written by me before I had any formal coding training for personal and collaborative projects from 2013 - 2016.  I have not cleaned them up to show an example of the code I wrote before attending [Nashville Software School](https://github.com/nashville-software-school).  
+This repository is made up of Unity 3D C# scripts written before I had any formal coding training for personal and collaborative projects from 2013 - 2016.  They were not written while using GitHub.  I have not cleaned them up to show an example of the code I wrote before attending [Nashville Software School](https://github.com/nashville-software-school).  
 
 # To Use
 All files have to be run in the [Unity 3D Game Engine](https://unity3d.com/).
@@ -10,6 +10,14 @@ A runtime-compiled language to develop visual novels in Unity.  I wanted to see 
 
 ## World of WarCraft Camera & Movement Clone (2016)
 These scripts were made to replicate the World of WarCraft player camera, including mouse orbit, arrow key movement, zooming in and out, and collision detection to push the camera closer to the player.
+
+The animations and models used in this project are not provided.  They were made by a third party.
+
+### File Description
+1. CameraMovement20161020.cs
+    * Controls the camera's movement.  It provides functionality to smoothly follow the player as they move, rotate around the player, zoom in in when objects are between the camera and the player, and zoom in with the scroll wheel..
+1. PlayerMovement20161004.cs
+    * Controls player's movement.  Animations used in the example are not provided.
 
 ## Territories - Settlers of Catan Style Game (2015 - 16)
 Territories was a multiplayer turn based 3D game where players explore the map, mine resources, advance their technology, and encounter other players that become trusted allies or despicable foes.  The "server" is not a server, but a script that reads a file on the players computer. 
