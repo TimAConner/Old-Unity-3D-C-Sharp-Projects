@@ -5,9 +5,9 @@ This repository is made up of Unity 3D C# scripts written, before I had formal c
 All files have to be run in the [Unity 3D Game Engine](https://unity3d.com/) version 3.x.
 
 # Projects
-1. Cut! The Visual Novel Designer for Unity (2013 - 2014)
-1. World of WarCraft Camera & Movement Clone (2016)
-1. Territories - Settlers of Catan Style Game (2015 - 2016)
+1. [Cut! The Visual Novel Designer for Unity (2013 - 2014)](#cut-the-visual-novel-designer-for-unity-2013---2014) 
+1. [World of WarCraft Camera & Movement Clone (2016)](#world-of-warcraft-camera--movement-clone-2016)
+1. [Territories - Settlers of Catan Style Game (2015 - 2016)](#territories---settlers-of-catan-style-game-2015---2016)
 
 ## Cut! The Visual Novel Designer for Unity (2013 - 2014)
 A runtime-compiled language to develop visual novels in Unity.  I wanted to see if I could build my own "programming language."  After talking with a friend about a visual novel project they wanted to build, I determined Unity was not an environment in which they could easily design visual novel game levels.  In order to give them the most control with the least amount of programming, I developed a language written in C# within Unity.
