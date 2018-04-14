@@ -20,7 +20,7 @@ It was originally built without regex.  About half way through, I decided to use
 
 1. Cut! The Visual Novel Designer for Unity _Folder_
     1. #### CUTCodingReference - Version 1.1405.docx  
-        `A quick coding guide written in word for the CUT language.`
+        `A coding guide written in word for the CUT language.`
     1. #### C# Scripts _Folder_
         * #### Classes _Folder_
             * AnimationClass.cs  
