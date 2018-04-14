@@ -6,7 +6,7 @@ All files have to be run in the [Unity 3D Game Engine](https://unity3d.com/) ver
 
 # Projects
 1. [Cut! The Visual Novel Designer for Unity (2013 - 2014)](#cut-the-visual-novel-designer-for-unity-2013---2014) 
-1. [World of WarCraft Camera & Movement Clone (2016)](#world-of-warcraft-camera-movement-clone-2016)
+1. [World of WarCraft Camera & Movement Clone (2016)](#world-of-warcraft-camera--movement-clone-2016)
 1. [Territories - Settlers of Catan Style Game (2015 - 2016)](#territories---settlers-of-catan-style-game-2015---2016)
 
 ## Cut! The Visual Novel Designer for Unity (2013 - 2014)
