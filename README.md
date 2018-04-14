@@ -12,7 +12,7 @@ All files have to be run in the [Unity 3D Game Engine](https://unity3d.com/) ver
 
 ---
 ## Cut! The Visual Novel Designer for Unity (2013 - 2014)
-A runtime-compiled language to develop visual novels in Unity.  I wanted to see if I could build my own "programming language."  After talking wtih a friend about a visual novel project they wanted to build, I determined Unity was not an environment in which they could easily design visual novel game levels.  In order to give them the most control with the least amount of programming, I developed a language written in C# within Unity.
+A runtime-compiled language to develop visual novels in Unity.  I wanted to see if I could build my own "programming language."  After talking with a friend about a visual novel project they wanted to build, I determined Unity was not an environment in which they could easily design visual novel game levels.  In order to give them the most control with the least amount of programming, I developed a language written in C# within Unity.
 
 It was originally built without regex.  About half way through, I decided to use regex to parse CUT code.
 
@@ -33,7 +33,7 @@ It was originally built without regex.  About half way through, I decided to use
             * ButtonClassDefault.cs  
                 `Contains the default values for the button class.  I don't know why I chose to put the defaults in an alternate class to ButtonClass.cs  `
             * ChannelClass.cs  
-                `Contains information about the current channel that audio is being played over.  Contains the id of the channel, the max vovlumen, the time played for, and the information on when to fade in / fade out.`
+                `Contains information about the current channel that audio is being played over.  Contains the id of the channel, the max volume, the time played for, and the information on when to fade in / fade out.`
             * Character.cs  
                 `Contains character name, the variable associated with the character, and their text color.`
             * CurrentImage.cs  
@@ -117,11 +117,11 @@ Territories was a multiplayer turn based 3D game where players explore the map, 
         * PlayerClass.cs    
             `Class containing player resources, allies, upgrades, messages, and other stats.`
         * ResourcesClass.cs     
-            `Class containing a list of resources and a possible hex to be used in the messege class if resources and/or a hex is being traded between players.`
+            `Class containing a list of resources and a possible hex to be used in the message class if resources and/or a hex is being traded between players.`
         * SettingsClass.cs    
             `Holds two strings, the key and the value.  Used to hold settings that the player may have.` 
         * SoldierClasss.cs     
-            `Class contianng soldier type and wounds variables.`
+            `Class containing  soldier type and wounds variables.`
         * StringIntClass.cs    
             `Class enables you to store a string that is associated with an integer.` 
         * TwoIntegerList.cs     
