@@ -19,10 +19,10 @@ It was originally built without regex.  About half way through, I decided to use
 ### File Descriptions
 
 1. Cut! The Visual Novel Designer for Unity _Folder_
-    1. CUTCodingReference - Version 1.1405.docx  
+    1. #### CUTCodingReference - Version 1.1405.docx  
         `A quick coding guide written in word for the CUT language.`
-    1. C# Scripts _Folder_
-        1. Classes _Folder_
+    1. #### C# Scripts _Folder_
+        1. #### Classes _Folder_
             1. AnimationoClass.cs  
                 `Contains name of animation and the string containing the actual animation.`
             1. AudioClass.cs  
@@ -56,7 +56,7 @@ It was originally built without regex.  About half way through, I decided to use
 
         1. CutVersion11400.cs  
             `Main controller of CUT.  Contains primary logic and parses the code.`
-    1. Example CUT Game Files _Folder_
+    1. #### Example CUT Game Files _Folder_
         1. Game00.cut  
             `An example game.`
         1. Game01.cut  
@@ -65,7 +65,7 @@ It was originally built without regex.  About half way through, I decided to use
             `An example game.`
         1. Settings.cut  
             `An example settings file.`
-    1. Example Save Files _Folder_
+    1. #### Example Save Files _Folder_
         1. QuickSave.cut  
             `An example quick save file.`
         1. Save.cut  
@@ -101,12 +101,12 @@ Territories was a multiplayer turn based 3D game where players explore the map, 
 
 ### File Descriptions
 1. Territories - Settlers of Catan Style Game _Folder_  
-    1. Classes _Folder_ 
-        1. AlliesClass.cs     
+    1. #### Classes _Folder_
+        1. AlliesClass.cs  
         `Class containing the name of an ally.`
-        1. GridPoint.cs     
+        1. GridPoint.cs  
         `Class containing and x and y grid coordinate.`
-        1. HexGridClass.cs    
+        1. HexGridClass.cs  
             `Class containing a hex on the map and it stats.`
         1. MessageClass.cs     
             `Class containing message type, text, and sender information.`
@@ -126,7 +126,7 @@ Territories was a multiplayer turn based 3D game where players explore the map, 
             `Class containing information about a unit moving around the game board, including the owner's information, its resources, the soldiers that make it up, and what waves the soldiers are in.`
         1. UpgradeClass.cs      
             `Class containing the information that defines the effects of an upgrad and its cost.`
-    1. Saving Data Scripts _Folder_ 
+    1. #### Saving Data Scripts _Folder_ 
         1. FirstTestScriptPHPPost.cs  s          
             `Testing of posting data created by VersionDeserializationBinder to a website.`
         1. SaveData.cs     
