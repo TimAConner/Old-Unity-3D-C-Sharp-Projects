@@ -9,8 +9,6 @@ All files have to be run in the [Unity 3D Game Engine](https://unity3d.com/) ver
 1. World of WarCraft Camera & Movement Clone (2016)
 1. Territories - Settlers of Catan Style Game (2015 - 2016)
 
-
----
 ## Cut! The Visual Novel Designer for Unity (2013 - 2014)
 A runtime-compiled language to develop visual novels in Unity.  I wanted to see if I could build my own "programming language."  After talking with a friend about a visual novel project they wanted to build, I determined Unity was not an environment in which they could easily design visual novel game levels.  In order to give them the most control with the least amount of programming, I developed a language written in C# within Unity.
 
